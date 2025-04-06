@@ -3,7 +3,7 @@ import yt_dlp
 import os
 import uuid
 
-app = Flask(__name__, template_folder='../templates', static_folder='../static')
+app = Flask(__name__, template_folder='../templates')
 
 # Home page
 @app.route('/')
